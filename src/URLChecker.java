@@ -9,10 +9,6 @@ public class URLChecker {
 	public static final int index = 1;
 	public static final String expectedCode = "1069956";
     
-    public WebElement findCarouselById(WebDriver driver, String id) {
-            return driver.findElement(By.id(id)).findElement(By.className(CAROUSEL_CLASS));
-    }
-    
 	public static void main(String[] args) {
 		
         // Create a new instance of the html unit driver
